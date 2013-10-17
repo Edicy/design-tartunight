@@ -3,10 +3,11 @@
     <meta name="copyright" content="{{ site.copyright }}" />
 	<meta name="author" content="{{ site.author }}" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="{{ javascripts_path }}/modernizr.js"></script>
     {% if site.search.enabled %}{% stylesheet_link "assets/site_search/3.0/style.css?1" static_host="true" %}{% endif %}
     {% stylesheet_link "reset.css?1" %}
     {% stylesheet_link "fonts.css?1" %}    
-	{% stylesheet_link "style-night.css?1" %}
+	{% stylesheet_link "style-night.css?2" %}
 	{% if editmode %}{% stylesheet_link "assets/admin/editmode.css" static_host="true" %}{% endif %}
     <!--[if lt IE 8]>{% stylesheet_link "style_ie.css?1" %}<![endif]-->
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
