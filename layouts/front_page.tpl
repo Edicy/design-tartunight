@@ -18,7 +18,7 @@
 				<h2>{% content name="slogan" %}</h2>
 			</div>
 			<div id="content-wrap" class="clear">
-				<div class="left-column">
+				<div class="left-column" data-search-indexing-allowed="true">
                     {% content %}
 				</div>
 				<div class="right-column">

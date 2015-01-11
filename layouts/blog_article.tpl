@@ -22,8 +22,8 @@
 			</div>
 			<div id="content-wrap" class="clear">
                 <div class="left-column clear">
-				<div class="excerpt">{% editable article.excerpt %}</div>
-				{% editable article.body %}			
+				<div class="excerpt" data-search-indexing-allowed="true">{% editable article.excerpt %}</div>
+				<div data-search-indexing-allowed="true">{% editable article.body %}</div>
 						
 
             {% if editmode %}
