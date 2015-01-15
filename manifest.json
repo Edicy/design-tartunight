@@ -99,7 +99,7 @@
   ],
   "assets": [
     {
-      "content_type": "application/vnd.ms-fontobject",
+      "content_type": "font/eot",
       "file": "assets/sansus-webissimo-regular-webfont.eot",
       "kind": "assets",
       "filename": "sansus-webissimo-regular-webfont.eot"
