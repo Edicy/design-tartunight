@@ -6,6 +6,20 @@
   "author": "Paavel Liik",
   "layouts": [
     {
+      "content_type": "blog",
+      "component": false,
+      "file": "layouts/blog___news.tpl",
+      "layout_name": "blog",
+      "title": "Blog & News"
+    },
+    {
+      "content_type": "blog_article",
+      "component": false,
+      "file": "layouts/blog_article.tpl",
+      "layout_name": "blog_article",
+      "title": "Blog article"
+    },
+    {
       "content_type": "page",
       "component": false,
       "file": "layouts/common_page.tpl",
@@ -18,20 +32,6 @@
       "file": "layouts/front_page.tpl",
       "layout_name": "page_front",
       "title": "Front page"
-    },
-    {
-      "content_type": "blog",
-      "component": false,
-      "file": "layouts/blog___news.tpl",
-      "layout_name": "blog",
-      "title": "Blog & News"
-    },
-    {
-      "content_type": "blog",
-      "component": false,
-      "file": "layouts/blog___news.tpl",
-      "layout_name": "blog",
-      "title": "Blog & News"
     },
     {
       "content_type": "component",
@@ -99,7 +99,7 @@
   ],
   "assets": [
     {
-      "content_type": "font/eot",
+      "content_type": "application/vnd.ms-fontobject",
       "file": "assets/sansus-webissimo-regular-webfont.eot",
       "kind": "assets",
       "filename": "sansus-webissimo-regular-webfont.eot"
