@@ -141,12 +141,6 @@
       "filename": "bg.gif"
     },
     {
-      "content_type": "application/javascript",
-      "file": "images/jquery.placeholder.min.js",
-      "kind": "images",
-      "filename": "jquery.placeholder.min.js"
-    },
-    {
       "content_type": "image/png",
       "file": "images/search.png",
       "kind": "images",
