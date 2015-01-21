@@ -127,8 +127,8 @@ img {
 	background: #a43741;
 }
 #header .site-options {
-	margin-top: 9px;
-	margin-bottom: 8px;
+	margin-top: 8px;
+	margin-bottom: 9px;
 	float: right;
 }
 /* langmenu */
@@ -187,14 +187,14 @@ img {
 }
 #search-btn {
 	float: right;
-    width: 37px;
+  width: 37px;
 	cursor: pointer;
 	padding-top: 4px;
 	padding-bottom: 5px;
 }
 #search {
 	position: absolute;
-	top: 38px;
+	top: 39px;
 	left: 0;
 	border: 4px solid #962F39;
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
@@ -202,6 +202,12 @@ img {
 	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);		
 	display: none;
     z-index: 120    
+}
+@media only screen and (max-width: 1120px) {
+	#search {
+		left: auto;
+		right: 0;
+	}
 }
 #onpage_search {
 	font: 14px/30px Helvetica, Arial, Verdana, sans-serif;	
