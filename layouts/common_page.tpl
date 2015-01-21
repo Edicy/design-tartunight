@@ -7,8 +7,10 @@
 		<div id="header" class="clear">
 			<div class="wrapper">
 				{% include "Mainmenu" %}
-                {% include "Langmenu" %}
-                {% include "Search" %}
+				<div class="site-options">
+           {% include "Search" %}
+           {% include "Langmenu" %}
+				</div>
 			</div>
 		</div>
 		<!-- //header -->
