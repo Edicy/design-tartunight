@@ -23,8 +23,8 @@
 			</div>
 			<div id="content-wrap" class="clear">
                 <div class="left-column clear">
-				<div class="excerpt" data-search-indexing-allowed="true">{% editable article.excerpt %}</div>
-				<div data-search-indexing-allowed="true">{% editable article.body %}</div>
+				<div class="excerpt content-hyphenate" data-search-indexing-allowed="true">{% editable article.excerpt %}</div>
+				<div class="content-hyphenate" data-search-indexing-allowed="true">{% editable article.body %}</div>
 						
 
             {% if editmode %}
@@ -43,7 +43,7 @@
                 {% endunless %}
             {% endif %}
 
-    <div id="comments">
+    <div id="comments" class="content-hyphenate">
     <h2>{% case article.comments_count %}{% when 0 %}{{"no_comments"|lc}}{% else %}{{"comments_for_count"|lc}}: <span class="edy-site-blog-comments-count">
        {{article.comments_count}}</span>{% endcase %}</h2>
     <ul>

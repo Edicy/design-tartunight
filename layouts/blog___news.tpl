@@ -36,7 +36,7 @@
                     {% addbutton class="add-article" %}
     				<ul id="blog-list">
                     {% for article in articles %}
-						<li>
+						<li class="content-hyphenate">
 							<span class="date">{{article.created_at | format_date:"long"}}</span>	
 							<h2><a href="{{article.url}}">{{article.title}}</a></h2>
 							{{article.excerpt | strip_html | truncate : 200}} <br/><a class="more" href="{{article.url}}">{{"read_more"|lc}}</a>

@@ -47,6 +47,14 @@ img {
 	width: auto\9; /* ie8 */
 }
 
+.content-hyphenate {
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
 /* Editable content image */
 .edy-positionable-container-left {
   margin-right: 15px;

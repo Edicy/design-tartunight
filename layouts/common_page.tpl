@@ -16,11 +16,11 @@
 		<!-- //header -->
         {% include "mobile-menu" %}
 		<div id="wrap">
-			<div class="hgroup clear">
+			<div class="hgroup clear content-hyphenate">
 				<h1 id="logo" class="clear">{% editable site.header %}</h1>
 				<h2>{% content name="slogan" %}</h2>
 			</div>
-			<div id="content-wrap" class="clear">
+			<div id="content-wrap" class="clear content-hyphenate">
 				<div class="left-column" data-search-indexing-allowed="true">
                     {% content %}
 				</div>
