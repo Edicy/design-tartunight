@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ page.language_code }}">
     <head>
      {% include "SiteHeader" %}
      {{blog.rss_link}}
@@ -13,6 +13,7 @@
            {% include "Langmenu" %}
         </div>
 		</div>
+        </div>
 		<!-- //header -->
 		<div id="wrap">
 			<div class="hgroup clear">
@@ -25,6 +26,7 @@
                 <div class="left-column clear">
 				<div class="excerpt content-hyphenate" data-search-indexing-allowed="true">{% editable article.excerpt %}</div>
 				<div class="content-hyphenate" data-search-indexing-allowed="true">{% editable article.body %}</div>
+
 						
 
             {% if editmode %}

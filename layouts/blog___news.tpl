@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ page.language_code }}">
     <head>
      {% include "SiteHeader" %}
      {{blog.rss_link}}
@@ -12,6 +12,7 @@
            {% include "Search" %}
            {% include "Langmenu" %}
 				</div>
+			</div>
 		</div>
 		<!-- //header -->
 		<div id="wrap">
@@ -39,9 +40,10 @@
 						<li class="content-hyphenate">
 							<span class="date">{{article.created_at | format_date:"long"}}</span>	
 							<h2><a href="{{article.url}}">{{article.title}}</a></h2>
-							{{article.excerpt | strip_html | truncate : 200}} <br/><a class="more" href="{{article.url}}">{{"read_more"|lc}}</a>
+							<div class="content-hyphenate">{{article.excerpt | strip_html | truncate : 200}}</div> <br/><a class="more" href="{{article.url}}">{{"read_more"|lc}}</a>
 						</li>
                     {% endfor %}
+                    </ul>
                 </div>
 			</div>
 			<!-- //content-wrap -->
